@@ -1,0 +1,52 @@
+body {
+    background-color: lightgray;
+}
+
+.notepad-container {
+    max-width: 800px;
+    
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notepad-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.notepad-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.notepad-body {
+    min-height: 300px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-save {
+    background-color: #28a745;
+    color: #fff;
+
+}
+
+.btn-delete {
+    background-color: red;
+    color: #fff;
+    
+}
+.btn-createpage {
+    background-color: blue;
+    color: #fff;
+    
+}
+.btn-group{
+    border-bottom: 0rem;
+}   
